@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Func.cpp">
+      <Filter>lib\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>lib\InputManage</Filter>
+    </ClCompile>
+    <ClCompile Include="Director.cpp">
+      <Filter>game\director</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>game\Scene\gameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>game\Scene\MainScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lib">
+      <UniqueIdentifier>{51978613-610f-4cf3-a571-f5c69ef21620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\InputManage">
+      <UniqueIdentifier>{b96016da-44c4-4a03-9d7f-9f75e30d0b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\Func">
+      <UniqueIdentifier>{cf112c89-a99a-46ad-a156-fb3e23ee9be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{cef0bcce-db8d-4220-8c2c-65a318f177ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\director">
+      <UniqueIdentifier>{82acf0d1-ce3b-4d07-8257-a2a0f65f10b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Scene">
+      <UniqueIdentifier>{74d3fc1c-c973-4e7e-9327-a960c8ab7159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Scene\gameScene">
+      <UniqueIdentifier>{8c39be92-78a2-409b-93c5-3e14b6e18db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Scene\MainScene">
+      <UniqueIdentifier>{3e7aec30-d7f5-4841-a64a-5b8f24c29c38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Func.h">
+      <Filter>lib\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>lib\InputManage</Filter>
+    </ClInclude>
+    <ClInclude Include="IObject.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="Director.h">
+      <Filter>game\director</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>game\Scene\gameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>game\Scene\MainScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
