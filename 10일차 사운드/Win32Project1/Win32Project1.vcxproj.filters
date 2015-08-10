@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Engine\App">
+      <UniqueIdentifier>{1aacc7e3-492f-449b-9f01-19baf90f2e33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\scene">
+      <UniqueIdentifier>{7fab348b-c08a-4896-b059-566e1e4248e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{3811d5b3-bc4c-4e16-8d41-3f1559885485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\scene\sprite">
+      <UniqueIdentifier>{8e0d91f0-047d-4dee-9bd2-3f69c0473318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\manager">
+      <UniqueIdentifier>{9b6e3546-2793-4743-92d5-8ff6d097ab2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\manager\Resource">
+      <UniqueIdentifier>{aaf3e351-cee6-415a-ba1d-22a9cc3830aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\manager\Scene">
+      <UniqueIdentifier>{e5d5a157-807f-4dd3-8d67-682fbb2e5221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\scene\animation">
+      <UniqueIdentifier>{477f0a24-35cd-4723-bad3-071eaa1dae75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\manager\input">
+      <UniqueIdentifier>{bf830d48-001b-42c1-9b75-42a9070c6e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\scene\font">
+      <UniqueIdentifier>{385563b8-9de3-4903-971f-fc00708720c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\manager\sound">
+      <UniqueIdentifier>{417e10fa-4e87-4719-a6c2-5623456e3ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\gameScene">
+      <UniqueIdentifier>{5b8fa293-3a2d-403d-87e0-a535168ab190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\gameScene\bg">
+      <UniqueIdentifier>{de038017-b2cb-4643-acec-8076accd2f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\particle">
+      <UniqueIdentifier>{e177c207-df16-472a-b54c-b993e2a7150e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\gameScene\player">
+      <UniqueIdentifier>{e287cd83-3d48-43e0-b29b-6f37b12d39af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\gameScene\arrow">
+      <UniqueIdentifier>{f11095c2-0df4-400a-838a-c52ccd20da12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\gameScene\enemy">
+      <UniqueIdentifier>{effa4836-70d1-4a09-aaa3-827162b5a9c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\gameScene\Bullet">
+      <UniqueIdentifier>{f4d36609-8bb2-42c0-9718-2a4eca27e80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\mainScene">
+      <UniqueIdentifier>{e50ccb94-b698-4724-9ef4-cddc723175cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>Engine\App</Filter>
+    </ClCompile>
+    <ClCompile Include="IScene.cpp">
+      <Filter>Engine\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Engine\manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Engine\manager\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Engine\scene\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Engine\scene\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Engine\manager\input</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Engine\scene\font</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Engine\manager\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>game\gameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>game\gameScene\bg</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Engine\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Engine\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>game\gameScene\player</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>game\gameScene\arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>game\gameScene\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>game\gameScene\Bullet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>Engine\App</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>Engine\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Engine\manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Engine\manager\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Engine\scene\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Engine\scene\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Engine\manager\input</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Engine\scene\font</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Engine\manager\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>game\gameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>game\gameScene\bg</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Engine\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Engine\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>game\gameScene\player</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>game\gameScene\arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>game\gameScene\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>game\gameScene\Bullet</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
